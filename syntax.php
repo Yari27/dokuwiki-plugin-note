@@ -116,9 +116,9 @@ class syntax_plugin_note extends DokuWiki_Syntax_Plugin
         }
     }
 
-    function render($mode, Doku_Renderer $renderer, $indata)
+    function render($format, Doku_Renderer $renderer, $indata)
     {
-        if ($mode == 'xhtml') {
+        if ($format == 'xhtml') {
             list($state, $data) = $indata;
 
             switch ($state) {
@@ -135,7 +135,7 @@ class syntax_plugin_note extends DokuWiki_Syntax_Plugin
                     break;
             }
             return true;
-        } elseif ($mode == 'odt') {
+        } elseif ($format == 'odt') {
             list($state, $data) = $indata;
 
             $this->render_odt($renderer, $state, $data);
