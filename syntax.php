@@ -112,7 +112,7 @@ class syntax_plugin_note extends DokuWiki_Syntax_Plugin
                 return array($state, $match);
 
             default:
-                return array($state);
+                return array($state, null);
         }
     }
 
