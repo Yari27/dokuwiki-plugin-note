@@ -1,7 +1,7 @@
 base   note
-author Anael Mobilia
+author Anael Mobilia, Jarosław Pietras
 email  contrib@anael.eu
-date   2024-04-15
+date   2024-06-16
 name   Note Plugin
-desc   Add Note/Important/Tip/Warning Capability (DIV+CSS box)
+desc   Add Note/Important/Tip/Warning/Question/Link/ToKown/Reference Capability (DIV+CSS box)
 url    https://www.dokuwiki.org/plugin:note

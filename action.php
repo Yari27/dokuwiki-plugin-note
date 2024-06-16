@@ -51,6 +51,34 @@ class action_plugin_note extends DokuWiki_Action_Plugin
                     'open' => '<note warning>',
                     'close' => '</note>',
                 ),
+                array(
+                    'type' => 'format',
+                    'title' => $this->getLang('tb_question'),
+                    'icon' => '../../plugins/note/images/tb_question.png',
+                    'open' => '<note question>',
+                    'close' => '</note>',
+                ),
+                array(
+                    'type' => 'format',
+                    'title' => $this->getLang('tb_link'),
+                    'icon' => '../../plugins/note/images/tb_link.png',
+                    'open' => '<note link>',
+                    'close' => '</note>',
+                ),
+                array(
+                    'type' => 'format',
+                    'title' => $this->getLang('tb_toknow'),
+                    'icon' => '../../plugins/note/images/tb_toknow.png',
+                    'open' => '<note toknow>',
+                    'close' => '</note>',
+                ),
+                array(
+                    'type' => 'format',
+                    'title' => $this->getLang('tb_reference'),
+                    'icon' => '../../plugins/note/images/tb_reference.png',
+                    'open' => '<note reference>',
+                    'close' => '</note>',
+                ),
             )
         );
     }

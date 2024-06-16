@@ -1,6 +1,6 @@
 .plugin_note {
   margin: 2em auto;
-  max-width: 70%;
+  max-width: 100%;
   min-height: 40px;
   text-align: justify;
   vertical-align: middle;
@@ -20,25 +20,57 @@
 }
  
 .noteclassic {
-  /*border: 1px solid #99D;*/
-  background-color: #eeeeff;
+  color: #2183B3;
+/*  border: 1px solid #2183B3;*/
+  background-color: #D9EDF7;
   background-image: url(images/note.png);
 }
  
 .noteimportant {
-  /*border: 1px solid #ff0;*/
-  background-color: #ffffcc;
+  color: #A94442;
+/*  border: 1px solid #A94442;*/
+  background-color: #F2DEDE;
   background-image: url(images/important.png);
 }
  
 .notewarning {
-  /*border: 1px solid #d99;*/
-  background-color: #ffdddd;
+  color: #8A6D3B;
+/*  border: 1px solid #8A6D3B;*/
+  background-color: #FCF8E3;
   background-image: url(images/warning.png);
 }
  
 .notetip {
-  /*border: 1px solid #9d9;*/
-  background-color: #ddffdd;
+  color: #2183B3;
+/*  border: 1px solid #2183B3;*/
+  background-color: #D9EDF7;
   background-image: url(images/tip.png);
+}
+
+.notequestion {
+  color: #3C763D;
+/*  border: 1px solid #3C763D;*/
+  background-color: #DFF0D8;
+  background-image: url(images/question.png);
+}
+
+.notelink {
+  color: #B075FF;
+/*  border: 1px solid #B075FF;*/
+  background-color: #F3EAFF;
+  background-image: url(images/link.png);
+}
+
+.notetoknow {
+  color: #FFFFFF;
+/*  border: 1px solid #02A2D6;*/
+  background-color: #000000;
+  background-image: url(images/toknow.png);
+}
+
+.notereference {
+  color: #ABA49A;
+/*  border: 1px solid #ABA49A;*/
+  background-color: #AC6600;
+  background-image: url(images/reference.png);
 }

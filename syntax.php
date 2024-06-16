@@ -38,10 +38,14 @@ class syntax_plugin_note extends DokuWiki_Syntax_Plugin
 {
 
     protected $notes = array(
-        'noteimportant' => array('important', 'importante'),
-        'notewarning' => array('warning', 'bloquante', 'critique'),
-        'notetip' => array('tip', 'tuyau', 'idée'),
-        'noteclassic' => array('', 'classic', 'classique')
+        'notereference' => array('reference'),
+        'notetoknow' => array('toknow'),
+        'notelink' => array('link'),
+        'notequestion' => array('question'),
+        'noteimportant' => array('important'),
+        'notewarning' => array('warning', 'critical'),
+        'notetip' => array('tip', 'hint'),
+        'noteclassic' => array('', 'classic')
     );
 
     protected $default = 'plugin_note noteclassic';
